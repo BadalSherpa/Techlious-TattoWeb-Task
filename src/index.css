@@ -1,0 +1,26 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+.logoBack {
+  height: 32px;
+  background-color: white;
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+  [data-theme="white"] .site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  svg:hover{
+fill:"blue"
+  }

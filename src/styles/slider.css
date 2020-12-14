@@ -1,0 +1,24 @@
+  .logo {
+    float: left;
+    width: 120px;
+    height: 20px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+  }
+  .logoBox{
+      padding-top: 5px;
+      padding-bottom:70px;
+      background-color: #fff;
+  }
+  .ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  
+  .whiteTheme{
+    background-color: white;
+  }
+svg:hover{
+    fill:yellow
+}
