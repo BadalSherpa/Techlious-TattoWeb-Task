@@ -1,9 +1,13 @@
 .site-layout .site-layout-background {
     background: #fff;
-    
+  }
+  .position{
+    position: "fixed";
+    z-index: 1;
+    width: "100%" 
   }
 .pageTitle{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 15px;
 }
@@ -45,9 +49,31 @@ background-color: white;
   right: 0;
   width: calc(100%);
 }
-.avatarStore{
-  padding-left: 175px;
-}
+
 .bellStore{
-  padding-left: 300px;
+  padding-left: 150px;
+
 }
+
+
+
+.card {
+       
+        
+  overflow-y: scroll;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.headingpush {
+  display: flex;
+  padding-left: 200px;
+  
+
+}
+
+

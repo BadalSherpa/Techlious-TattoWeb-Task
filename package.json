@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
+    "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
+    "ant-design-pro": "^2.3.2",
     "antd": "^4.9.2",
+    "bizcharts": "^4.0.16",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "0.9.5"

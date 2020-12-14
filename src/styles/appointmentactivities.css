@@ -1,0 +1,65 @@
+.innerRecent{
+    padding-bottom: 10px;
+}
+.sideway{
+    padding-left: 1000px;
+}
+.maintain{
+    padding-bottom: 30px;
+      }
+
+       .bigdot{
+        font-size: large;
+    }
+      .card {
+       
+        
+        overflow-y: scroll;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .card::-webkit-scrollbar {
+        display: none;
+    }
+    .cardHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .actionBtn {
+        height: 20px;
+        width: 20px;
+        
+    }
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card_content .card_item {
+        display: flex;
+        border-bottom: 1.5px solid #dae2ed;
+        margin-top: 5px;
+        padding-bottom: 8px;
+    }
+    .card_content .card_item p {
+        margin: 0;
+        padding: 0;
+    }
+    .card_content .card_item h4 {
+        margin: 0;
+        padding: 0;
+    }
+    .card_action {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_date {
+        margin-right: 2em;
+        color: #5e5b5b91;
+    }
+    

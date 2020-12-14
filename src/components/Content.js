@@ -1,29 +1,19 @@
 import React from "react";
-import { Layout, Card, Row, Col } from "antd";
-const { Content } = Layout;
+import { Card, Row, Col } from "antd";
 import "../styles/content.css";
+import RecentSales from "./RecentSales";
+import UpcomingAppointments from "./UpcomingAppointments";
+import NextAppointments from "./NextAppointments";
+import Activities from "./Activitys";
 
 function customContent() {
   return (
-    // <Content style={{ margin: "24px 16px 0" }}>
-    <Row className="site-card-border-less-wrapper" justify="space-around">
-      <Col span={4}>
-        <Card style={{ width: 300 }}>
-          <p>Card content</p>
-          <p>Card content</p>
-          <p>Card content</p>
-        </Card>
-      </Col>
-      <Col span={4}>
-        <Card style={{ width: 300 }}>
-          <p>Card content</p>
-          <p>Card content</p>
-          <p>Card content</p>
-        </Card>
-      </Col>
+    <Row gutter={60} className="site-card-wrapper">
+      <RecentSales />
+      <UpcomingAppointments />
+      <Activities />
+      <NextAppointments />
     </Row>
-
-    // </Content>
   );
 }
 
