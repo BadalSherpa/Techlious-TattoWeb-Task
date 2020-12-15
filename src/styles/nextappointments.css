@@ -11,3 +11,30 @@
     .maintain{
         padding-bottom: 30px;
           }
+
+.nextappointment{
+	padding-top: 50px;
+  text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+  
+          .card {
+            height: 250px;
+            padding: 5px;
+            background-color: #fff;
+            overflow-y:fixed;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .card::-webkit-scrollbar {
+            display: none;
+        }
+        .cardHeader {
+            /* display: flex; */
+            justify-content: space-between;
+            align-items: center;
+           
+        }

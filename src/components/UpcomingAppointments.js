@@ -1,39 +1,87 @@
 import React from "react";
-import { Card, Row, Col } from "antd";
-const { Meta } = Card;
+import { Card, Col } from "antd";
+
 import "../styles/upcomingappointments.css";
+
+const Tasks = () => {
+  return (
+    <Card bordered={false} className="card">
+      <div className="cardHeader">
+        <div className="actionBtn"></div>
+      </div>
+      <div className="card_content">
+        <div className="card_item">
+          <div className="item_date">
+            08 <br /> Sep
+          </div>
+          <div className=".item_description">
+            <p>Tuesday, 8 sept 2020 8:00pm</p>
+            <h4>Tatto on hand</h4>
+            <p>Ramesh, 1h 30min with Suresh</p>
+          </div>
+          <div className="card_action">
+            <a href="">Cancel</a>
+          </div>
+        </div>
+        <div className="card_item">
+          <div className="item_date">
+            08 <br /> Sep
+          </div>
+          <div className="item_description">
+            <p>Tuesday, 8 sept 2020 8:00pm</p>
+            <h4>Tatto on hand</h4>
+            <p>Ramesh, 1h 30min with Suresh</p>
+          </div>
+          <div className="card_action">
+            <a href="">Cancel</a>
+          </div>
+        </div>
+        <div className="card_item">
+          <div className="item_date">
+            08 <br /> Sep
+          </div>
+          <div className="item_description">
+            <p>Tuesday, 8 sept 2020 8:00pm</p>
+            <h4>Tatto on hand</h4>
+            <p>Ramesh, 1h 30min with Suresh</p>
+          </div>
+          <div className="card_action">
+            <a href="">Cancel</a>
+          </div>
+        </div>
+        <div className="card_item">
+          <div className="item_date">
+            08 <br /> Sep
+          </div>
+          <div className="item_description">
+            <p>Tuesday, 8 sept 2020 8:00pm</p>
+            <h4>Tatto on hand</h4>
+            <p>Ramesh, 1h 30min with Suresh</p>
+          </div>
+          <div className="card_action">
+            <a href="">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </Card>
+  );
+};
 
 function upcomingAppointments() {
   return (
-    <Col span={11} className="maintain">
-      <Card bordered={false} className="card">
+    <Col span={11}>
+      <Card bordered={false} className="cardsize">
         <div className="cardHeader">
           <h4>
-            Upcoming Appointments
+            <strong>Upcoming Appointments</strong>
             <br />
-            <small style={{ marginTop: "-40px", fontWeight: "lighter" }}>
-              Next 7 days
-            </small>
+            <small className="smalltext">Next 7 days</small>
           </h4>
           <div className="actionBtn">
             <strong className="bigdot">...</strong>
           </div>
         </div>
-        <Row>Last 30 days</Row>
-        <strong>
-          Recent Sales Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem containing Lorem Ipsum
-          passages, and more
-        </strong>
+        <Tasks />
       </Card>
     </Col>
   );

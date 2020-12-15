@@ -10,10 +10,22 @@ function HomeLayout() {
   return (
     <Layout>
       <CustomSidebar />
-      <Layout style={{ paddingLeft: "3px" }}>
+      <Layout style={{ paddingLeft: "205px" }}>
+        <CustomHeader />
+        <Layout
+          style={{
+            paddingTop: "85px",
+            paddingLeft: "20px",
+            paddingBottom: "85px",
+          }}
+        >
+          <CustomContent />
+        </Layout>
+      </Layout>
+      {/* <Layout style={{ paddingLeft: "3px" }}>
         <CustomHeader />
         <CustomContent />
-      </Layout>
+      </Layout> */}
     </Layout>
   );
 }

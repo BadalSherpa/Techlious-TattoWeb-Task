@@ -16,27 +16,25 @@ for (let i = 0; i < 12; i += 1) {
 
 function recentSales() {
   return (
-    <Col span={11} className="maintain">
-      <Card bordered={false} className="card">
+    <Col span={11} style={{ paddingBottom: "30px" }}>
+      <Card bordered={false} className="cardsize">
         <div className="cardHeader">
           <h4>
-            Recent Sales <br />
-            <small style={{ marginTop: "-40px", fontWeight: "lighter" }}>
-              Last 30 days
-            </small>
+            <strong>Recent Sales</strong> <br />
+            <small className="smalltext">Last 30 days</small>
           </h4>
           <div className="actionBtn">
             <strong className="bigdot">...</strong>
           </div>
         </div>
         <Row></Row>
-        <Title level={2}>₹ 2000.00</Title>
-        <Text type="secondary">Appointments:</Text>
+        <Title level={4}>₹ 2000.00</Title>
+        <small className="smalltext">Appointments:</small>
         <Text strong> 6</Text>
         <br />
-        <Text type="secondary">Appointments Values:</Text>
+        <small className="smalltext">Appointments Values:</small>
         <Text strong> ₹ 10000</Text>
-        <Bar height={300} title="Sales per month" data={salesData} />
+        <Bar height={200} title="Sales per month" data={salesData} />
       </Card>
     </Col>
   );

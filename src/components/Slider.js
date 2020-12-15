@@ -19,7 +19,15 @@ import {
 
 function customSidebar() {
   return (
-    <Sider className="whiteTheme">
+    <Sider
+      className="whiteTheme"
+      style={{
+        overflow: "auto",
+        height: "100vh",
+        position: "fixed",
+        left: 0,
+      }}
+    >
       <div className="logoBox">
         <img className="logo" src={Logo} alt="company-logo"></img>
       </div>

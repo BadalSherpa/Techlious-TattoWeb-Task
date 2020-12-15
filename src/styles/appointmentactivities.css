@@ -33,16 +33,17 @@
         width: 20px;
         
     }
-    .card_content {
+    /* .card_content {
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
+    } */
     .card_content .card_item {
         display: flex;
         border-bottom: 1.5px solid #dae2ed;
         margin-top: 5px;
         padding-bottom: 8px;
+        
     }
     .card_content .card_item p {
         margin: 0;

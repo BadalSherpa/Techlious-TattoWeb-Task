@@ -4,9 +4,15 @@
 .sideway{
     padding-left: 1000px;
 }
-.maintain{
-    padding-bottom: 30px;
-      }
-      .bigdot{
+.bigdot{
         font-size: large;
     }
+.cardsize{
+    height: 400px;
+    
+}
+    
+.smalltext{
+    margin-top: "-40px";
+    font-weight: "lighter" 
+}
